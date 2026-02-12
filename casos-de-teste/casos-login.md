@@ -28,7 +28,7 @@ RF03	CT-006
 RF04	CT-007, CT-008
 RF05	CT-003, CT-004, CT-005
 
-Cobertura: ✅ 100%
+Cobertura: 100%
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -309,8 +309,9 @@ Prioridade: Média
 Severidade: Média
 Status: Não Executado
 
-Objetivo
 
+Objetivo
+#
 Validar comportamento do sistema para e-mails inexistentes.
 
 Dados de Teste
