@@ -14,7 +14,7 @@ Sistema Operacional: Windows 10
 
 Base de dados: Ambiente de homologação
 
-📊 MATRIZ DE RASTREABILIDADE
+MATRIZ DE RASTREABILIDADE
 Requisito	Casos de Teste
 RF01	CT-001
 RF02	CT-002
@@ -26,7 +26,7 @@ Cobertura: ✅ 100%
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🧪 CT-001 – Login com dados válidos
+CT-001 – Login com dados válidos
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -37,21 +37,21 @@ Prioridade: Alta
 Severidade: Crítica
 Status: Não Executado
 
-🎯 Objetivo
+Objetivo
 
 Validar que o sistema permite login com credenciais válidas.
 
-🔐 Pré-condição
+Pré-condição
 
 Usuário previamente cadastrado e ativo na base de dados.
 
-📥 Dados de Teste
+Dados de Teste
 
 E-mail: usuario@teste.com
 
 Senha: 123456
 
-🔄 Passos
+Passos
 
 Acessar a tela de login
 
@@ -61,21 +61,21 @@ Informar senha válida
 
 Clicar em “Entrar”
 
-✅ Resultado Esperado
+Resultado Esperado
 
 Usuário deve ser autenticado com sucesso e redirecionado para a página inicial.
 
-📎 Evidência Esperada
+Evidência Esperada
 
 Print da tela inicial após login.
 
-📌 Critério de Aprovação
+Critério de Aprovação
 
 Redirecionamento correto e sessão iniciada.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🧪 CT-002 – Login com senha incorreta
+CT-002 – Login com senha incorreta
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -86,21 +86,21 @@ Prioridade: Alta
 Severidade: Alta
 Status: Não Executado
 
-🎯 Objetivo
+Objetivo
 
 Validar que o sistema bloqueia acesso com senha incorreta.
 
-🔐 Pré-condição
+Pré-condição
 
 Usuário cadastrado.
 
-📥 Dados de Teste
+Dados de Teste
 
 E-mail: usuario@teste.com
 
 Senha: senha_errada
 
-🔄 Passos
+Passos
 
 Acessar a tela de login
 
@@ -110,19 +110,19 @@ Informar senha incorreta
 
 Clicar em “Entrar”
 
-✅ Resultado Esperado
+Resultado Esperado
 
 Exibir mensagem:
 "E-mail ou senha inválidos."
 Usuário não deve acessar o sistema.
 
-📎 Evidência Esperada
+Evidência Esperada
 
 Print da mensagem de erro exibida.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🧪 CT-003 – Campo e-mail em branco
+CT-003 – Campo e-mail em branco
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -133,11 +133,11 @@ Prioridade: Alta
 Severidade: Média
 Status: Não Executado
 
-🎯 Objetivo
+Objetivo
 
 Validar obrigatoriedade do campo e-mail.
 
-🔄 Passos
+Passos
 
 Acessar tela de login
 
@@ -147,17 +147,17 @@ Informar senha válida
 
 Clicar em “Entrar”
 
-✅ Resultado Esperado
+Resultado Esperado
 
 Sistema deve exibir mensagem informando que o campo e-mail é obrigatório.
 
-📎 Evidência Esperada
+Evidência Esperada
 
 Print da validação exibida abaixo do campo.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🧪 CT-004 – Campo senha em branco
+CT-004 – Campo senha em branco
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -168,11 +168,11 @@ Prioridade: Alta
 Severidade: Média
 Status: Não Executado
 
-🎯 Objetivo
+Objetivo
 
 Validar obrigatoriedade do campo senha.
 
-🔄 Passos
+Passos
 
 Informar e-mail válido
 
@@ -180,13 +180,13 @@ Deixar campo senha vazio
 
 Clicar em “Entrar”
 
-✅ Resultado Esperado
+Resultado Esperado
 
 Sistema deve exibir mensagem informando que o campo senha é obrigatório.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🧪 CT-005 – E-mail em formato inválido
+CT-005 – E-mail em formato inválido
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -197,16 +197,16 @@ Prioridade: Alta
 Severidade: Média
 Status: Não Executado
 
-🎯 Objetivo
+Objetivo
 
 Validar formato correto do campo e-mail.
 
-📥 Dados de Teste
+Dados de Teste
 
 E-mail: usuario_teste
 Senha: 123456
 
-🔄 Passos
+Passos
 
 Informar e-mail inválido
 
@@ -214,13 +214,13 @@ Informar senha válida
 
 Clicar em “Entrar”
 
-✅ Resultado Esperado
+Resultado Esperado
 
 Sistema deve exibir mensagem informando formato inválido.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🧪 CT-006 – Bloqueio após 5 tentativas inválidas
+CT-006 – Bloqueio após 5 tentativas inválidas
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -231,30 +231,30 @@ Prioridade: Alta
 Severidade: Crítica
 Status: Não Executado
 
-🎯 Objetivo
+Objetivo
 
 Garantir bloqueio da conta após múltiplas tentativas inválidas.
 
-🔄 Passos
+Passos
 
 Informar senha incorreta
 
 Repetir processo 5 vezes consecutivas
 
-✅ Resultado Esperado
+Resultado Esperado
 
 Conta deve ser bloqueada após a 5ª tentativa.
 
 Mensagem:
 "Conta bloqueada após múltiplas tentativas inválidas."
 
-📎 Evidência Esperada
+Evidência Esperada
 
 Print da mensagem de bloqueio.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🧪 CT-007 – Recuperação de senha com e-mail cadastrado
+CT-007 – Recuperação de senha com e-mail cadastrado
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -265,15 +265,15 @@ Prioridade: Média
 Severidade: Alta
 Status: Não Executado
 
-🎯 Objetivo
+Objetivo
 
 Validar envio de e-mail de recuperação.
 
-📥 Dados de Teste
+Dados de Teste
 
 E-mail: usuario@teste.com
 
-🔄 Passos
+Passos
 
 Clicar em “Esqueci minha senha”
 
@@ -281,18 +281,18 @@ Informar e-mail cadastrado
 
 Confirmar
 
-✅ Resultado Esperado
+Resultado Esperado
 
 Sistema deve exibir mensagem de confirmação.
 E-mail deve ser enviado ao usuário.
 
-📎 Evidência Esperada
+Evidência Esperada
 
 Print da mensagem + confirmação de recebimento do e-mail.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🧪 CT-008 – Recuperação com e-mail não cadastrado
+CT-008 – Recuperação com e-mail não cadastrado
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -303,20 +303,20 @@ Prioridade: Média
 Severidade: Média
 Status: Não Executado
 
-🎯 Objetivo
+Objetivo
 
 Validar comportamento do sistema para e-mails inexistentes.
 
-📥 Dados de Teste
+Dados de Teste
 
 E-mail: naoexiste@teste.com
 
-🔄 Passos
+Passos
 
 Informar e-mail não cadastrado
 
 Confirmar solicitação
 
-✅ Resultado Esperado
+Resultado Esperado
 
 Sistema deve informar que o e-mail não está cadastrado.
